@@ -173,7 +173,7 @@ void idft(double** re_array, double** im_array, short** out_array, long height, 
              * recover after centralization
              */
             move = (i + j) % 2 == 0 ? 1 : -1;
-            out_array[i][j] = (short)(real / sqrt(width*height) * move);
+            out_array[i][j] = (short)(real / (width*height) * move);
 
             if (out_array[i][j] > 0xff)
                 out_array[i][j] = 0xff;
