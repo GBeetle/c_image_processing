@@ -1,6 +1,6 @@
 # c_image_processing
 
-c语言数字图像处理
+c语言数字图像处理v1.0
 
 [c语言数字图像处理（一）：bmp图片格式及灰度图片转换](https://github.com/GBeetle/c_image_processing/tree/master/rgb2grayscale)
 
